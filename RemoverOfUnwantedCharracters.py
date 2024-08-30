@@ -44,7 +44,7 @@ def open_file_dialog():
     if file_path:  # Ak bol vybraný súbor
         remove_unwanted_numbers(file_path)
     else:
-        print("Nebolo vybrané žiadne súbor.")
+        print("Nebol vybraný žiaden súbor.")
 
 # Spustenie dialógového okna
 open_file_dialog()
